@@ -14,7 +14,13 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@okhino/api/data-access-db": ["libs/api/data-access-db/src/index.ts"],
+      "@okhino/api/feature-user": ["libs/api/feature-user/src/index.ts"],
+      "@okhino/api/generated-db-types": [
+        "libs/api/generated-db-types/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
