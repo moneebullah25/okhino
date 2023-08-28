@@ -19,6 +19,9 @@
       "@okhino/api/feature-user": ["libs/api/feature-user/src/index.ts"],
       "@okhino/api/generated-db-types": [
         "libs/api/generated-db-types/src/index.ts"
+      ],
+      "@okhino/web/data-access-graphql": [
+        "libs/web/data-access-graphql/src/index.ts"
       ]
     }
   },
